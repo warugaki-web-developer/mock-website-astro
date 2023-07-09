@@ -4,12 +4,22 @@
   "editor.formatOnType": false,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": false
+    "source.addMissingImports": false,
+    "source.fixAll.eslint": true
   },
 
   // Typescript
 
   "typescript.inlayHints.parameterNames.enabled": "all",
+
+  // ESLint
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "astro",
+    "typescript",
+    "typescriptreact"
+  ],
 
   // Prettier
 
