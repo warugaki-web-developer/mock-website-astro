@@ -13,7 +13,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint:eslint": "eslint **/*.{astro,js,ts}",
+    "lint:eslint": "eslint . --ext .js,.ts,.cjs,.mjs,.astro",
     "fix:eslint": "npm run lint:eslint -- --fix",
     "lint:prettier": "prettier . --check",
     "fix:prettier": "prettier . --write"
