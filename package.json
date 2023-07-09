@@ -12,9 +12,15 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint:prettier": "prettier . --check",
+    "fix:prettier": "prettier . --write"
   },
   "dependencies": {
     "astro": "^2.8.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "prettier-plugin-astro": "^0.10.0"
   }
 }
