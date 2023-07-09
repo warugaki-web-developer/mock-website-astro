@@ -5,7 +5,8 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.addMissingImports": false,
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
   },
 
   // Typescript
@@ -20,6 +21,10 @@
     "typescript",
     "typescriptreact"
   ],
+  // Stylelint
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": ["css", "scss", "astro"],
 
   // Prettier
 
