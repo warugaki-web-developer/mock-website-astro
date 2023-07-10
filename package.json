@@ -27,6 +27,7 @@
     "@types/eslint": "^8.44.0",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
+    "autoprefixer": "^10.4.14",
     "eslint": "^8.44.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
@@ -41,5 +42,10 @@
     "stylelint-config-recess-order": "^4.2.0",
     "stylelint-config-standard": "^34.0.0",
     "stylelint-rscss": "^0.4.0"
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not dead",
+    "not op_mini all"
+  ]
 }
