@@ -7,5 +7,12 @@ module.exports = {
     'stylelint-rscss/config',
     'stylelint-config-recess-order',
   ],
-  rules: {},
+  rules: {
+    'selector-pseudo-class-no-unknown': [
+      true,
+      {
+        ignorePseudoClasses: ['global'],
+      },
+    ],
+  },
 };
